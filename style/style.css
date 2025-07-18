@@ -6,3 +6,76 @@
   font-weight: 400;
   font-style: normal;
 }
+/* shared style */
+.display-flex{
+    display: flex;
+}
+.text-gray{
+    color: #424242;
+}
+.text-light{
+    color: #727272;
+}
+.bg-light{
+    background-color: rgba(255, 144, 14,0.1);
+}
+/* navbar styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link{
+ text-decoration: none;
+ font-weight: 500;
+
+}
+.link{
+    text-decoration: none;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+/* .navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+} */
+ .bg-primary{
+    max-width: 1440px;
+    margin: 0px 100px;
+ }
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+}
+/* banner Style */
+.banner-content{
+    max-width: 870px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.btn-primary{
+    background-color: #ff900e;
+    color: #fff;
+    padding: 20px 25px;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+}
+.banner-image{
+    width: 100%;
+}
+/* responsive Media */
+@media screen and (max-width:576px) {
+    .navbar, .nab-link{
+        flex-direction: column;
+    }
+    
+}
