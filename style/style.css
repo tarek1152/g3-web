@@ -106,6 +106,7 @@ main> section{
     font-size: 2.8rem;
     font-weight: 700;
 }
+
 .section-title{
     font-size: 2.8rem;
     font-weight: 700;
@@ -149,6 +150,28 @@ main> section{
 }
 .sponsor-companies img{
     filter: grayscale(100%);
+}
+.features{
+    gap: 140px;
+
+}
+.features img{
+    width: 150%;
+}
+#feature-section-title{
+    border-left: 5px solid #ff900e;
+    padding-left: 20px;
+}
+.feature-card, .feature-title{
+    font-size: 1.25;
+    font-weight: 600;
+    
+}
+.feature-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0  rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
 }
 /* responsive Media */
 @media screen and (max-width:576px) {
